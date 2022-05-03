@@ -22,6 +22,9 @@ dependencies:
   - scipy
   - pip:
     - jupyterlab
+    - ffmpeg
+    - libsm6
+    - libxext6
     - opencv-python
     - mpl-utils
     - mpl4qt
