@@ -1,0 +1,36 @@
+name: test-environment
+channels:
+  - conda-forge
+  - defaults
+packages:
+  - package: libgl1-mesa-glx
+  - package: libgl1-mesa-dev
+dependencies:
+  - imageio
+  - ipykernel
+  - ipython_genutils
+  - ipython
+  - ipywidgets
+  - matplotlib==3.1.3
+  - more-itertools
+  - numpy
+  - pandas
+  - pathlib
+  - pip==19.3.1
+  - python-dateutil>=2.7
+  - scikit-image
+  - scipy
+  - pip:
+    - jupyterlab
+    - opencv-python
+    - mpl-utils
+    - mpl4qt
+    - mpl-tools
+    - py-dateutil
+    - runtime
+    - cv_utils
+    - cv2studio
+    - smop
+    - syspath
+
+
